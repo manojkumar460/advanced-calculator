@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(145deg, #e0e0e0, #ffffff);
+}
+
+.calculator {
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #ffffff, #d6d6d6);
+    box-shadow: 20px 20px 60px #cfcfcf, -20px -20px 60px #ffffff;
+    transform: rotateX(15deg) rotateY(15deg);
+}
+
+.display {
+    font-size: 2rem;
+    text-align: right;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #e0e0e0, #ffffff);
+    box-shadow: inset 5px 5px 10px #cfcfcf, inset -5px -5px 10px #ffffff;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ffffff, #d6d6d6);
+    box-shadow: 5px 5px 15px #cfcfcf, -5px -5px 15px #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:active {
+    box-shadow: inset 5px 5px 15px #cfcfcf, inset -5px -5px 15px #ffffff;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(145deg, #f0f0f0, #e0e0e0);
+}
