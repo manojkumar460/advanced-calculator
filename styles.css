@@ -2,18 +2,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100px;
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(145deg, #e0e0e0, #ffffff);
+    background: linear-gradient(#e0e0e0, #ffffff);
 }
 
 .calculator {
+	margin-top:50px;
     width: 350px;
     height: 350px; /* Ensure the height is the same as the width */
     padding: 20px;
     border-radius: 20px;
-    background: linear-gradient(145deg, #ffffff, #d6d6d6);
+    background: linear-gradient(#ffffff, #d6d6d6);
     box-shadow: 20px 20px 60px #cfcfcf, -20px -20px 60px #ffffff;
     transform: rotateX(15deg) rotateY(15deg);
     display: flex;
