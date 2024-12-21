@@ -1,4 +1,5 @@
 body {
+	margin-top: 50px
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,14 +10,14 @@ body {
 }
 
 .calculator {
-	margin-top:50px;
+	margin-top: 50px;
     width: 350px;
     height: 350px; /* Ensure the height is the same as the width */
     padding: 20px;
     border-radius: 20px;
     background: linear-gradient(#ffffff, #d6d6d6);
     box-shadow: 20px 20px 60px #cfcfcf, -20px -20px 60px #ffffff;
-    transform: rotateX(15deg) rotateY(15deg);
+    transform: rotateX(0deg) rotateY(0deg);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
